@@ -21,7 +21,7 @@ import java.util.StringJoiner;
 
 /** The HTTP layer shared by every resource. Internal: use the resources on {@link MailCraft}. */
 public final class HttpTransport {
-    static final String VERSION = "0.1.0";
+    static final String VERSION = "1.0.0";
 
     private static final Gson GSON = new Gson();
     private static final Type MAP_TYPE = new TypeToken<Map<String, Object>>() {}.getType();
